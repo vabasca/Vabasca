@@ -1,0 +1,38 @@
+﻿const bcrypt = require('bcryptjs');
+const db = require('_helper/db');
+const Item = db.Item;
+
+module.exports = {
+    getById,
+    create,
+    update,
+    delete: _delete
+};
+
+async function getById(id) {
+    return await Item.findById(id).select('*');
+}
+
+async function create(itemParam) {
+    
+    const item = new Item(itemParam);
+
+    // save item
+    await item.save();
+}
+
+async function update(id, itemParam) {
+    const item = await Item.findById(id);
+
+    // validate
+    if (!item) throw 'User not found';
+    
+    // copy itemParam properties to item
+    Object.assign(item, itemParam);
+
+    await item.save();
+}
+
+async function _delete(id) {
+    await Item.findByIdAndRemove(id);
+}
