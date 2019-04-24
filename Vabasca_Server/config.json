@@ -1,4 +1,0 @@
-﻿{
-    "connectionString": "mongodb://heroku_rn0k4bb7:bqntf3cmomahblij1esple9ot4@ds163769.mlab.com:63769/heroku_rn0k4bb7",
-    "secret": "THIS IS USED TO SIGN AND VERIFY JWT TOKENS, REPLACE IT WITH YOUR OWN SECRET, IT CAN BE ANY STRING"
-}
