@@ -1,6 +1,7 @@
 package com.vabasca.fragments;
 
-import android.app.DialogFragment;
+//import android.app.DialogFragment;
+import android.support.v4.app.DialogFragment;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -71,7 +72,7 @@ public class ChangePasswordDialog extends DialogFragment {
 
         Bundle bundle = getArguments();
 
-        mToken = bundle.getString(Constants.TOKEN);
+//        mToken = bundle.getString(Constants.TOKEN);
         mEmail = bundle.getString(Constants.EMAIL);
     }
 
