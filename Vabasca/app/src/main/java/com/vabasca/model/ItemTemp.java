@@ -2,7 +2,7 @@ package com.vabasca.model;
 
 import java.util.Date;
 
-public abstract class Item {
+public abstract class ItemTemp {
     static final long ONE_MINUTE_IN_MILLIS = 60000;//millisecs
 
     int id;
@@ -12,7 +12,7 @@ public abstract class Item {
     boolean reminder;
     Date due;
 
-    public Item() {
+    public ItemTemp() {
         id = 0;
         name = "";
         desciption = "";

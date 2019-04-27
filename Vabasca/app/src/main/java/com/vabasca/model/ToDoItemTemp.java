@@ -3,8 +3,8 @@ package com.vabasca.model;
 import java.util.Date;
 import java.util.Calendar;
 
-public class ToDoItem extends Item {
-    public ToDoItem() {
+public class ToDoItemTemp extends ItemTemp {
+    public ToDoItemTemp() {
         super();
 
         Calendar date = Calendar.getInstance();

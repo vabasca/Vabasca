@@ -2,8 +2,8 @@ package com.vabasca.model;
 
 import java.util.Date;
 
-public class GroceryItem extends Item {
-    public  GroceryItem() {
+public class GroceryItemTemp extends ItemTemp {
+    public GroceryItemTemp() {
         super();
         quantity = 1;
     }
