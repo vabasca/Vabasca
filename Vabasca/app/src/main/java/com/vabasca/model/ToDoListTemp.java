@@ -1,4 +1,4 @@
 package com.vabasca.model;
 
-public class ToDoListTemp extends List {
+public class ToDoListTemp implements List {
 }

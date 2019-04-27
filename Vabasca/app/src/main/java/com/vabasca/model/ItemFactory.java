@@ -1,4 +1,4 @@
 package com.vabasca.model;
 
-public class ListFactory {
+public class ItemFactory {
 }

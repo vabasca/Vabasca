@@ -1,4 +1,4 @@
 package com.vabasca.model;
 
-public class GroceryListTemp extends List {
+public class GroceryListTemp implements List {
 }
