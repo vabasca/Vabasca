@@ -1,9 +1,211 @@
 <resources>
-    <string name="app_name">Vabasca</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
-    <string name="nav_header_title">Android Studio</string>
-    <string name="nav_header_subtitle">android.studio@android.com</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+
+    <string name="app_name">VABASCA</string>
+    <string name="grocery">VABASCA Grocery List</string>
+    <string name="share_title">VABASCA : </string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="add_list">Add item</string>
+    <string name="new_list">New list</string>
+    <string name="hint_desc">Add an item</string>
+    <string name="save">Save?</string>
+    <string name="schedule">Schedule</string>
+    <string name="untitled">Untitled</string>
+    <string name="no_description">No description</string>
+    <string name="mask_unti_value">US$</string>
+    <string name="update">Software update</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_new">New shopping list</string>
+    <string name="delete_all">Delete all</string>
+    <string name="xml_import">Import shopping list</string>
+    <string name="select_a_date">Select a date</string>    
+    <string name="barcode_scan">Barcode scan</string>
+    <string name="delete_selecteds">Delete checked</string>
+    <string name="duplicate">Duplicate</string>
+
+    <string name="select_all">Check all</string>
+    <string name="desselect_all">Uncheck all</string>
+    <string name="delete_question">Excluir?</string>
+    <string name="want_delete_list">Do you want to delete the list</string>
+    <string name="want_delete_item">Do you want to delete the item</string>
+    <string name="want_delete_all_list">Do you want to delete all the shopping lists?</string>
+    <string name="want_delete_all_items">Do you want to delete all the items of this shopping lists?</string>
+    <string name="want_delete_all_selected_itens">Do you want to delete all the checked items of this shopping lists?</string>
+    <string name="info_desc">Enter the item description.</string>
+    <string name="time">Time:</string>
+    <string name="new_notification_seted">A new notification will be shown on </string>
+    <string name="notification_arrived">Time to go shopping!</string>
+    <string name="item_already_inserted">Item is already on the shopping list!</string>
+    <string name="no_connection">No internet connection   =(</string>
+    <string name="settings">Settings</string>
+    <string name="todo" translatable="false">To-Do</string>
+    <string name="options">Options</string>
+    <string name="rename">Rename</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+    <string name="order">Ordination</string>
+    <string name="share_via_text">Share via text</string>
+    <string name="title_rename">Rename shopping list</string>
+    <string name="share_via">Share via</string>
+    <string name="no_item_added">No item was added</string>
+    <string name="no_list_added">Add a new list</string>    
+    <string name="invalid_importable_xml">This is a invalid file</string>
+    <string name="total">Total</string>
+    <string name="description_title">Item description</string>
+    <string name="quantity_title">Quant.</string>
+    <string name="unit_value_title">Price</string>
+    <string name="visualization_style">Visualization style</string>
+    <string name="show_quantity_summary">Show information about item quantity</string>
+    <string name="show_check_box_summary">Show checkboxes in the shopping list</string>
+    <string name="show_check_boxe_title">Show checkboxes </string>
+    <string name="show_quantity_title">Show quantities</string>
+    <string name="show_unit_value_summary">Show information about item price</string>
+    <string name="show_unit_value_title">Show prices</string>
+    <string name="quant_items">%d Item(s)</string>
+    <string name="ordenation_style">Ordination style</string>
+    <string name="ordenation_checked_style_title">Default style ordering of checked items</string>
+    <string name="ordenation_alphabetical_style_title">Default alphabetical style ordering of items</string>
+    <string name="default_option">Current option is : </string>
+    <string name="about_app_install_date">Installation date :</string>
+    <string name="date">Date:</string>
+    <string name="about_app_update_date">Last update :</string>
+    <string name="about_app">About this app</string>
+    <string name="about_app_version">App version :</string>
+    <string name="about_app_code">Version code :</string>
+    <string name="about_android_version">Android version :</string>
+    <string name="schedule_notification">Schedule a notification for:</string>
+    <string name="about">About</string>    
+    <string name="about_app_contact_me">Contact me : </string>
+    <string name="about_app_description">This is an experimental app developed by Tri Nguyen and Vinh Huynh. Do not pay for this app.</string>
+    
+    <string name="about_pollfish">About PollFish</string>
+     <string name="pollfish" translatable="false">PollFish</string>
+    <string name="pollfish_title" translatable="false">Survey Serving Technology</string>
+    
+     <string name="pollfish_text" translatable="false">This app uses Pollfish SDK. Pollfish is an on-line survey platform, through which, anyone may conduct surveys. Pollfish collaborates with Developers of applications for smartphones in order to have access to users of such applications and address survey questionnaires to them. When a user connects to this app, Pollfish detects whether the user has enabled his Device’s interest-based-ads settings (Advertising ID for Android/Advertising Identifier for iOS). If not, Pollfish does not proceed to any action and cannot offer any survey to the user or collect any of his/her Data. If the user has enabled such settings, a specific set of user’s device data and response meta-data is automatically sent to Pollfish servers. These data will be associated with your answers to the questionnaires. By downloading the application you accept this privacy policy document and you hereby give your consent for the processing by Pollfish of the aforementioned data. Furthermore, you are informed that you may disable Pollfish operation at any time by (a) enabling the “opt out of interest-based advertising” in your device Settings area or by (b) using the Pollfish “opt out section” available on Pollfish website . We invite you to check the respondent’s terms of use, if you wish to have more detailed view of the way Pollfish works.</string>
+     <string name="pollfish_finish" translatable="false">APPLE, GOOGLE AND AMAZON ARE NOT A SPONSOR NOR ARE INVOLVED IN ANY WAY IN THE DRAWS. NO APPLE PRODUCTS ARE BEING USED AS PRIZES.</string>
+
+    <string-array name="ordenation_checked_style_list_array">
+        <item>Natural ordination</item>
+        <item>Checked down</item>
+        <item>Checked up</item>
+    </string-array>
+
+    <string name="title" translatable="false">Vabasca</string>
+
+    <string name="detail" translatable="false">Small Text</string>
+
+    <string name="action_settings" translatable="false">Settings</string>
+
+    <string-array name="ordenation_alphabetical_style_list_array">
+        <item>Natural ordination</item>
+        <item>Ascending Alphabetical Order</item>
+        <item>Reverse Alphabetical Order</item>
+    </string-array>
+
+
+    <string-array name="note_type">
+
+        <item>Normal</item>
+
+        <item>Standard</item>
+
+        <item>Urgent</item>
+        <item>Notify</item>
+
+    </string-array>
+
+    <string name="title_activity_create_note" translatable="false">Create Note</string>
+
+    <string name="title_activity_information" translatable="false">Information</string>
+
+    <string name="title_activity_edit__note">Edit Note</string>
+
+    <string name="New">Create New Note</string>
+
+    <string name="back">Back to Main</string>
+
+    <string name="edit">Edit Note</string>
+
+    <string name="discard">Discard Note</string>
+
+    <string name="note_type_text">Choose Note Type:</string>
+
+    <string name="title_activity_alert">Alert</string>
+
+    <string name="Not_Set">Not Set</string>
+
+    <string name="hour_minutes">HH:mm</string>
+
+    <string name="alert_title">title</string>
+    <string name="set_notify">Set Notification</string>
+    <string name="added_alert">An Alert can be added</string>
+    <string name="notify">You can recieve notifications</string>
+    <string name="rodId">rowID</string>
+
+    <string name="Alertnotifty">"Alert: "</string>
+
+    <string name="alerttitle">title</string>
+
+    <string name="delete_title">Delete Selected Task</string>
+
+    <string name="delete_message">Are you sure?</string>
+
+    <string name="rodID">rowID</string>
+
+    <string name="rowID">rowID</string>
+
+    <string name="row_id">rowID</string>
+
+    <string name="intent_row_id">rowID</string>
+
+    <string name="row_id_long">rowID</string>
+
+    <string name="alarm_active">An Alert can be added!</string>
+
+    <string name="row_id_log">rowID</string>
+
+    <string name="title_hint">Enter Task</string>
+
+    <string name="hint_description">Enter Task Description</string>
+
+    <string name="set_alert">Set Alert</string>
+
+    <string name="textview_date">Select Date</string>
+
+    <string name="txt_time">Enter Time:</string>
+
+    <string name="txt_edit_hint">Enter Title</string>
+
+    <string name="detail_hint">Enter Description</string>
+
+    <string name="type_note">Note Type:</string>
+
+    <string name="view_title">Large Text</string>
+
+    <string name="view_detail">Medium Text</string>
+
+    <string name="note_type">Medium Text</string>
+
+    <string name="type_list_entry">Small Text</string>
+
+    <string name="time_vie">testtime</string>
+
+    <string name="alarmtext">Alert: </string>
+
+    <string name="dateformate">dd/MM/yyyy</string>
+
+    <string name="Not_Set_Alert">Not Set</string>
+
+    <string name="ok">Ok</string>
+
+    <string name="title_msg">title</string>
+
+    <string name="titttle">title</string>
+
+    <string name="alert_content" translatable="false">alert_content</string>
+
+    <string name="action_grocery" translatable="false">Grocery List</string>
+
+
 </resources>
